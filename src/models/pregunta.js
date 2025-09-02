@@ -7,7 +7,6 @@ export class PreguntaModel {
   }
 
   static async obtenerRespuestas() {
-    // sin filtro porque la tabla no tiene pregunta_id
     const [rows] = await pool.query("SELECT * FROM respuestas_posibles");
     return rows;
   }
