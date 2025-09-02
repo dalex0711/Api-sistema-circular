@@ -1,0 +1,65 @@
+[
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":1}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":2}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":3}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":4}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":5}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":6}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":7}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":8}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":9}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":10}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":11}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":12}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":13}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":14}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":15}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":16}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":17}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":18}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":19}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":20}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":21}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":22}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":23}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":24}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":25}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":26}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":false}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":27}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":false},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":28}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":false},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":29}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":false},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":30}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":false},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":31}}},
+
+  { "conditions": { "all":[{"fact":"dolor","operator":"equal","value":true},{"fact":"respiracion","operator":"equal","value":true},{"fact":"mareos","operator":"equal","value":true},{"fact":"hinchazon","operator":"equal","value":true},{"fact":"latidos","operator":"equal","value":true}]}, "event":{"type":"diagnostico","params":{"diagnostico_id":32}}}
+]
